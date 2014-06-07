@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Helvetica';
+	background-color: #243041;
+}
+/*anypai show page style*/
+.image-area{
+	
+}
+.image-pic{
+	width: 90%;
+	position: relative;
+
+	margin-left: -45%;
+	left: 50%;
+	border: 2px inset #787878;
+}
+.intro-area{
+	font-size: 19px;
+	line-height: 30px;
+	text-align: center;
+
+	color: #787878;
+}
+.intro-area{
+	width: 90%;
+	margin: 0 auto;
+
+	margin-top: 15px;
+}
+.intro-text-num{
+	color: #d71345;
+	font-size: 21px;
+}
+.intro-detail{
+	margin-bottom: 20px;
+}

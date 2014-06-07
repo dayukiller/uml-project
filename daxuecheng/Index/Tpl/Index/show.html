@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>荒岛点赞</title>
+
+		<link rel="stylesheet" type="text/css" href="/daxuecheng/Public/css/anypai.css">
+	</head>
+
+	<body>
+		<div>
+			<div class="image-area">
+				<img class="image-pic" src="{$imageUrl}">
+			</div>
+			
+			<div class="intro-area">
+				<div class="intro-text"> 
+					<if condition="$sex eq 1">他被赞过<span class="intro-text-num">{$likeTime}</span>次
+						<else/ >她被赞过<span class="intro-text-num">{$likeTime}</span>次
+					</if>
+				</div>
+			</div>
+		</div>
+	</body>	
+</html>
